@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+
+.calculator{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:auto;
+    width: 400px;
+    display:grid;
+    margin-top: 10%;
+}
+
+.screen{
+    font-size: 5rem;
+    height: 80px;
+    width:100%;
+    border:none;
+    background-color:#252525;
+    color:whitesmoke;
+    text-align:right;
+    padding-right:20px;
+    padding-left: 10px;    
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
